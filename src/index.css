@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,5 +7,9 @@
 @layer base {
   * {
     line-height: 100%;
+  }
+
+  body {
+    font-family: 'Bitter', sans-serif;
   }
 }
