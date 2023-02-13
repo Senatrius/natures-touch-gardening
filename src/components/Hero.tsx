@@ -8,7 +8,7 @@ export const Hero = () => {
           alt=''
         />
       </div>
-      <div className='max-w-[30rem] self-center py-16 text-center md:max-w-[33.75rem] md:basis-7/12 md:self-start md:py-24 md:pr-12 md:text-left lg:basis-1/2 lg:pr-16'>
+      <div className='w-[93%] max-w-[30rem] self-center py-16 text-center md:max-w-[33.75rem] md:basis-7/12 md:self-start md:py-24 md:pr-12 md:text-left lg:basis-1/2 lg:pr-16'>
         <h1 className='mb-4 text-[1.875rem] font-semibold leading-[1.1] md:mb-6 md:text-[2.5rem] lg:text-[3.25rem]'>
           Transforming Your Outdoor Space with Nature’s Touch
         </h1>
