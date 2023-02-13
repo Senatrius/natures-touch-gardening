@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className='mx-auto flex w-full max-w-[80rem] flex-col items-stretch md:w-[88%] md:flex-row-reverse md:justify-between lg:w-[83%]'>
+    <section className='mx-auto mb-[3.5rem] flex w-full max-w-[80rem] flex-col items-stretch md:mb-[6.25rem] md:w-[88%] md:flex-row-reverse md:justify-between lg:w-[83%]'>
       <div className='block max-h-[20rem] overflow-hidden md:max-h-none md:min-h-full md:basis-5/12 lg:basis-1/2'>
         <img
           className='min-h-full object-cover object-bottom md:object-[center,10%]'
