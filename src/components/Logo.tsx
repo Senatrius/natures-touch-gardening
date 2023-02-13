@@ -2,7 +2,7 @@ export const Logo = ({ color }: { color: string }) => {
   return (
     <svg
       viewBox='0 0 215 39'
-      className={`${color} mr-10 max-w-[8rem] md:max-w-[12rem]`}
+      className={`${color} mr-10 max-w-[10rem] md:max-w-[14rem]`}
       fill='none'
       xmlns='http://www.w3.org/2000/svg'>
       <path
