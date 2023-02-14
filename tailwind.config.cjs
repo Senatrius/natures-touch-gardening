@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-100': '#1CA109',
+        'primary-100': '#197C0B',
         'primary-200': '#8D4000',
         body: '#020800',
-        overlay: 'hsla(113, 89%, 33%, .8)',
-        watermark: 'hsla(113, 89%, 33%, .15)',
+        overlay: 'hsla(112, 84%, 26%, .8)',
+        watermark: 'hsla(112, 84%, 26%, .15)',
         footerText: '#9AC89F'
       }
     }
