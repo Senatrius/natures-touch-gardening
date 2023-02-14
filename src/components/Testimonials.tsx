@@ -3,7 +3,9 @@ import { Testimonial } from './Testimonial';
 
 export const Testimonials = () => {
   return (
-    <section className='mx-auto mb-[3.5rem] flex w-[93%] max-w-[80rem] flex-col items-center text-center md:mb-[6.25rem] md:w-[88%] md:items-start md:text-left lg:w-[83%]'>
+    <section
+      id='testimonials'
+      className='mx-auto mb-[3.5rem] flex w-[93%] max-w-[80rem] flex-col items-center text-center md:mb-[6.25rem] md:w-[88%] md:items-start md:text-left lg:w-[83%]'>
       <SectionTitle
         title='Testimonials'
         subtitle='What do our clients say?'

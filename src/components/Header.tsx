@@ -46,21 +46,21 @@ export const Header = () => {
                 <li className='w-full'>
                   <a
                     className='inline-block w-full py-4 hover:text-primary-100 focus:text-primary-100 md:inline md:w-auto md:p-0'
-                    href='/'>
+                    href='#about'>
                     Who we are
                   </a>
                 </li>
                 <li className='w-full'>
                   <a
                     className='inline-block w-full py-4 hover:text-primary-100 focus:text-primary-100 md:inline md:w-auto md:p-0'
-                    href='/'>
+                    href='#services'>
                     Services
                   </a>
                 </li>
                 <li className='w-full'>
                   <a
                     className='inline-block w-full py-4 hover:text-primary-100 focus:text-primary-100 md:inline md:w-auto md:p-0'
-                    href='/'>
+                    href='#testimonials'>
                     Testimonials
                   </a>
                 </li>
@@ -68,7 +68,7 @@ export const Header = () => {
                 <li className='my-4 w-full md:my-0'>
                   <a
                     className='inline-block w-full rounded-[.25rem] bg-primary-100 py-4 px-8 text-center text-white hover:brightness-125 focus:brightness-125 md:w-auto'
-                    href='/'>
+                    href='#contact'>
                     Get a Quote
                   </a>
                 </li>

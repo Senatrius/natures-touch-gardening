@@ -12,28 +12,28 @@ export const Footer = () => {
               <li className='text-[1.125rem]'>
                 <a
                   className='hover:text-primary-100 focus:text-primary-100'
-                  href='#'>
+                  href='#home'>
                   Home
                 </a>
               </li>
               <li className='text-[1.125rem]'>
                 <a
                   className='hover:text-primary-100 focus:text-primary-100'
-                  href='#'>
+                  href='#about'>
                   Who we are
                 </a>
               </li>
               <li className='text-[1.125rem]'>
                 <a
                   className='hover:text-primary-100 focus:text-primary-100'
-                  href='#'>
+                  href='#services'>
                   Services
                 </a>
               </li>
               <li className='text-[1.125rem]'>
                 <a
                   className='hover:text-primary-100 focus:text-primary-100'
-                  href='#'>
+                  href='#testimonials'>
                   Testimonials
                 </a>
               </li>

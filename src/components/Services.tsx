@@ -3,7 +3,9 @@ import { ServiceCard } from './ServiceCard';
 
 export const Services = () => {
   return (
-    <main className='mx-auto mb-[3.5rem] w-[93%] max-w-[80rem] gap-12 text-center md:mb-[6.25rem] md:w-[88%] md:gap-20 md:text-left lg:w-[83%]'>
+    <main
+      id='services'
+      className='mx-auto mb-[3.5rem] w-[93%] max-w-[80rem] gap-12 text-center md:mb-[6.25rem] md:w-[88%] md:gap-20 md:text-left lg:w-[83%]'>
       <SectionTitle
         title='Our Services'
         subtitle='How can we help you?'

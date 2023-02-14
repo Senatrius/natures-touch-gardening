@@ -2,7 +2,9 @@ import { SectionTitle } from './SectionTitle';
 
 export const About = () => {
   return (
-    <section className='mx-auto mb-[3.5rem] flex w-[93%] max-w-[80rem] flex-col items-stretch justify-between gap-12 md:mb-[6.25rem] md:w-[88%] md:flex-row md:gap-20 lg:w-[83%]'>
+    <section
+      id='about'
+      className='mx-auto mb-[3.5rem] flex w-[93%] max-w-[80rem] flex-col items-stretch justify-between gap-12 md:mb-[6.25rem] md:w-[88%] md:flex-row md:gap-20 lg:w-[83%]'>
       <div className='max-w-[39rem] text-center md:basis-7/12 md:py-12 md:text-left'>
         <SectionTitle
           title='Who we are'
