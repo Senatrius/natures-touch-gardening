@@ -1,19 +1,21 @@
 import { FormInput } from './FormInput';
 import { SectionTitle } from './SectionTitle';
 import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
 
-export interface IFormData {
+export type IFormData = {
   name: string;
   email: string;
   phone: string;
   service: string;
   message: string;
-}
+};
 
 export const Form = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm<IFormData>({
     defaultValues: {
@@ -24,8 +26,23 @@ export const Form = () => {
       message: ''
     }
   });
+
   const onSubmit = handleSubmit(data => {
-    console.log(data);
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        data,
+        import.meta.env.VITE_EMAILJS_PUBLIC
+      )
+      .then(
+        result => {
+          reset();
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
   });
 
   return (

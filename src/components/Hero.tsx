@@ -22,7 +22,7 @@ export const Hero = () => {
         </p>
         <a
           className='inline-block rounded-[.25rem] bg-primary-100 py-6 px-9 text-[1.125rem] text-white hover:brightness-125 focus:brightness-125'
-          href='/'>
+          href='#services'>
           See our services
         </a>
       </div>
